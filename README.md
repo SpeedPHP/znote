@@ -1,4 +1,4 @@
-### Open Source MindMap Software 开源的思维图软件
+### Open Source Editor 开源的编辑器
 
 #### base on [NW.js](https://nwjs.io/)
 

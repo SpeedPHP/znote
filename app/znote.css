@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "PingFang SC", "San Francisco", "Microsoft Yahei", "STHeiti", "SimSun";
+    overflow-x:hidden;
+    overflow-y:hidden;
+    background-color: rgb(26, 26, 26);
+    color: rgba(230, 230, 230, 0.52);
+    font-size: 12px;
+}
+#writer {
+    font-size: 16px;
+    line-height: 25px;
+    padding: 4px 10px 10px 11px;
+    resize:none;
+    outline:none;
+    border: 0;
+    color: rgba(230, 230, 230, 0.72);
+    background-color: rgb(36, 36, 36);
+}
+#status {
+    padding:1px 12px 0 12px;
+}
+#status b{
+    color: rgba(230, 230, 230, 0.72);
+    letter-spacing:1px;
+    font-weight: bold;
+}
+#settop a{
+    float: right;
+    text-align: right;
+    color: rgba(230, 230, 230, 0.72);
+    text-decoration: none;
+}
+#opration {
+    padding-left: 40px;
+}
+#opration a{
+    color: rgb(26, 26, 26);
+    text-decoration: none;
+}
+#opration:hover a{
+    color: rgba(230, 230, 230, 0.52);
+    text-decoration: none;
+}
+#opration input {
+    background-color: rgb(26, 26, 26);
+    outline-style: none;
+    border: 0;
+    color: rgba(230, 230, 230, 0.72);
+    border-bottom: solid rgb(36, 36, 36) 1px;
+    width:40px;
+    margin-right: 10px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(96, 96, 96);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+    background: rgb(46, 46, 46);
+}
+
