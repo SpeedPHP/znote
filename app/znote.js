@@ -164,3 +164,18 @@ function saveFileAndCount() {
     }
     return wordCount
 }
+
+var shortcut = new nw.Shortcut({
+    key : "Command+1",
+    active : function() {
+        nw.Window.open("app/main.html", {
+            width : 750,
+            height: 550,
+            position: "center"
+        })
+    },
+    failed : function(msg) {
+        console.log(msg)
+    }
+})
+nw.App.registerGlobalHotKey(shortcut)
