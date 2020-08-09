@@ -129,6 +129,12 @@ $("#saveFileDialog").change(function () {
 })
 submenu.append(new nw.MenuItem({type: 'separator'}))
 submenu.append(new nw.MenuItem({
+    label: '开发者工具', key: "d", modifiers: ctrl, click: function () {
+        nw.Window.get().showDevTools()
+    }
+}))
+submenu.append(new nw.MenuItem({type: 'separator'}))
+submenu.append(new nw.MenuItem({
     label: '退出', key: "q", modifiers: ctrl, click: function () {
         nw.Window.get().close()
     }
